@@ -1,0 +1,31 @@
+
+/* 清除浮动 */
+.clearfix::after{
+    content:"";
+    display: block;    
+    height: 0;
+    clear:both;
+}
+
+/* 浮动 */
+.f-left{
+    float:left;
+}
+.f-right{
+    float:right;
+}
+/* 左右padding 70px */
+.p-lr-70{
+    padding:0 70px;
+}
+
+/* 宽度1226，padding为70 */
+.w-p-70{
+    width:1226px;
+    padding:0 70px;
+}
+/* 上边距 15px */
+.m-t-15{
+    margin-top:15px;
+}
+
